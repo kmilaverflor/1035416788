@@ -1,0 +1,307 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-03 16:18 -0500
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:18
+Completed NSE at 16:18, 0.00s elapsed
+Initiating NSE at 16:18
+Completed NSE at 16:18, 0.00s elapsed
+Initiating NSE at 16:18
+Completed NSE at 16:18, 0.00s elapsed
+Initiating ARP Ping Scan at 16:18
+Scanning 10.13.181.36 [1 port]
+Completed ARP Ping Scan at 16:18, 0.04s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 16:18
+Completed Parallel DNS resolution of 1 host. at 16:18, 0.52s elapsed
+Initiating SYN Stealth Scan at 16:18
+Scanning 10.13.181.36 [1000 ports]
+Discovered open port 5357/tcp on 10.13.181.36
+Completed SYN Stealth Scan at 16:18, 16.27s elapsed (1000 total ports)
+Initiating Service scan at 16:18
+Scanning 1 service on 10.13.181.36
+Completed Service scan at 16:18, 11.08s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against 10.13.181.36
+Retrying OS detection (try #2) against 10.13.181.36
+NSE: Script scanning 10.13.181.36.
+Initiating NSE at 16:18
+Completed NSE at 16:18, 5.05s elapsed
+Initiating NSE at 16:18
+Completed NSE at 16:18, 0.01s elapsed
+Initiating NSE at 16:18
+Completed NSE at 16:18, 0.00s elapsed
+Nmap scan report for 10.13.181.36
+Host is up (0.0016s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Service Unavailable
+|_http-server-header: Microsoft-HTTPAPI/2.0
+MAC Address: 08:00:27:8F:A3:89 (Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 10|11|2019 (97%)
+OS CPE: cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_11 cpe:/o:microsoft:windows_server_2019
+Aggressive OS guesses: Microsoft Windows 10 1803 (97%), Microsoft Windows 10 1903 - 21H1 (97%), Microsoft Windows 11 (92%), Microsoft Windows 10 1909 (91%), Microsoft Windows 10 1909 - 2004 (91%), Windows Server 2019 (91%), Microsoft Windows 10 1809 (91%), Microsoft Windows 10 20H2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.55 ms 10.13.181.36
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:18
+Completed NSE at 16:18, 0.00s elapsed
+Initiating NSE at 16:18
+Completed NSE at 16:18, 0.00s elapsed
+Initiating NSE at 16:18
+Completed NSE at 16:18, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 40.15 seconds
+           Raw packets sent: 2075 (94.992KB) | Rcvd: 45 (2.680KB)
+
+
+
+
+
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-03 16:27 -0500
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:27
+Completed NSE at 16:27, 0.00s elapsed
+Initiating NSE at 16:27
+Completed NSE at 16:27, 0.00s elapsed
+Initiating NSE at 16:27
+Completed NSE at 16:27, 0.00s elapsed
+Initiating ARP Ping Scan at 16:27
+Scanning 10.13.181.136 [1 port]
+Completed ARP Ping Scan at 16:27, 0.04s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 16:27
+Completed Parallel DNS resolution of 1 host. at 16:27, 0.52s elapsed
+Initiating SYN Stealth Scan at 16:27
+Scanning 10.13.181.136 [1000 ports]
+Discovered open port 80/tcp on 10.13.181.136
+Discovered open port 139/tcp on 10.13.181.136
+Discovered open port 445/tcp on 10.13.181.136
+Discovered open port 135/tcp on 10.13.181.136
+Discovered open port 33354/tcp on 10.13.181.136
+Discovered open port 912/tcp on 10.13.181.136
+Discovered open port 2107/tcp on 10.13.181.136
+Discovered open port 9593/tcp on 10.13.181.136
+Discovered open port 2105/tcp on 10.13.181.136
+Discovered open port 2103/tcp on 10.13.181.136
+Discovered open port 5985/tcp on 10.13.181.136
+Discovered open port 1801/tcp on 10.13.181.136
+Discovered open port 7070/tcp on 10.13.181.136
+Discovered open port 9595/tcp on 10.13.181.136
+Discovered open port 9594/tcp on 10.13.181.136
+Discovered open port 902/tcp on 10.13.181.136
+Completed SYN Stealth Scan at 16:27, 0.44s elapsed (1000 total ports)
+Initiating Service scan at 16:27
+Scanning 16 services on 10.13.181.136
+Completed Service scan at 16:28, 53.76s elapsed (16 services on 1 host)
+Initiating OS detection (try #1) against 10.13.181.136
+NSE: Script scanning 10.13.181.136.
+Initiating NSE at 16:28
+Completed NSE at 16:28, 26.06s elapsed
+Initiating NSE at 16:28
+NSOCK ERROR [83.4850s] poll_loop(): nsock_loop error 10022: Se ha proporcionado un argumento no v\xe1lido. 
+NSE: Script Engine Scan Aborted.
+An error was thrown by the engine: C:\Program Files (x86)\Nmap/nse_main.lua:1078: a fatal error occurred in nsock_loop
+stack traceback:
+	[C]: in function 'nmap.socket.loop'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1078: in upvalue 'run'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1488: in function <C:\Program Files (x86)\Nmap/nse_main.lua:1435>
+	[C]: in ?
+Nmap scan report for 10.13.181.136
+Host is up (0.0015s latency).
+Not shown: 984 closed tcp ports (reset)
+PORT      STATE SERVICE         VERSION
+80/tcp    open  http            Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-title: Site doesn't have a title.
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1801/tcp  open  msmq?
+2103/tcp  open  msrpc           Microsoft Windows RPC
+2105/tcp  open  msrpc           Microsoft Windows RPC
+2107/tcp  open  msrpc           Microsoft Windows RPC
+5985/tcp  open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+7070/tcp  open  ssl/realserver?
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=AnyDesk Client
+| Issuer: commonName=AnyDesk Client
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2022-11-15T21:31:07
+| Not valid after:  2072-11-02T21:31:07
+| MD5:     9488 b85b 3f81 f413 aa90 5c62 56a7 31bc
+| SHA-1:   48b2 c7c0 8a6d 2908 f725 f026 48d0 d63f 8e92 0d8b
+|_SHA-256: 55b9 3563 a3d5 c307 75ca a62d f599 b008 a8d4 9407 33fd 1492 b199 b982 9d19 19e9
+9593/tcp  open  ssl/http        LANDesk/Intel Management Agent http config 1.0
+| ssl-cert: Subject: commonName=BEL-205-LW-012.UMD.LOCAL.EDU/organizationName=LANDesk(R) Management Suite/stateOrProvinceName=ANY/countryName=NA
+| Subject Alternative Name: DNS:BEL-205-LW-012.UMD.LOCAL.EDU, DNS:BEL-205-LW-012, DNS:localhost
+| Issuer: commonName=CBA8 Root Authority/organizationName=LANDesk(R) Software, Ltd./stateOrProvinceName=Utah/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 1970-01-01T00:00:00
+| Not valid after:  2037-06-30T21:03:40
+| MD5:     46f0 73b5 1d54 3875 86cb 6cf1 c603 2fbd
+| SHA-1:   722c 50d1 ecf5 e690 355b 3bef 6207 d25c 37f7 a9cd
+|_SHA-256: ee73 a471 5c6a ffe3 e2ea 41a4 c0f5 b23e 0118 7765 ba4c de7d 13cb 05e8 561d c121
+| http-ntlm-info: 
+|   Target_Name: UMD
+|   NetBIOS_Domain_Name: UMD
+|   NetBIOS_Computer_Name: BEL-205-LW-012
+|   DNS_Domain_Name: UMD.LOCAL.EDU
+|   DNS_Computer_Name: BEL-205-LW-012.UMD.LOCAL.EDU
+|   DNS_Tree_Name: UMD.LOCAL.EDU
+|_  Product_Version: 10.0.22621
+9594/tcp  open  ssl/http        LANDesk/Intel Management Agent http config 1.0
+| ssl-cert: Subject: commonName=BEL-205-LW-012.UMD.LOCAL.EDU/organizationName=LANDesk(R) Management Suite/stateOrProvinceName=ANY/countryName=NA
+| Subject Alternative Name: DNS:BEL-205-LW-012.UMD.LOCAL.EDU, DNS:BEL-205-LW-012, DNS:localhost
+| Issuer: commonName=CBA8 Root Authority/organizationName=LANDesk(R) Software, Ltd./stateOrProvinceName=Utah/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 1970-01-01T00:00:00
+| Not valid after:  2037-06-30T21:03:40
+| MD5:     46f0 73b5 1d54 3875 86cb 6cf1 c603 2fbd
+| SHA-1:   722c 50d1 ecf5 e690 355b 3bef 6207 d25c 37f7 a9cd
+|_SHA-256: ee73 a471 5c6a ffe3 e2ea 41a4 c0f5 b23e 0118 7765 ba4c de7d 13cb 05e8 561d c121
+| http-ntlm-info: 
+|   Target_Name: UMD
+|   NetBIOS_Domain_Name: UMD
+|   NetBIOS_Computer_Name: BEL-205-LW-012
+|   DNS_Domain_Name: UMD.LOCAL.EDU
+|   DNS_Computer_Name: BEL-205-LW-012.UMD.LOCAL.EDU
+|   DNS_Tree_Name: UMD.LOCAL.EDU
+|_  Product_Version: 10.0.22621
+9595/tcp  open  http            LANDesk/Intel Management Agent http config 1.0
+| http-ntlm-info: 
+|   Target_Name: UMD
+|   NetBIOS_Domain_Name: UMD
+|   NetBIOS_Computer_Name: BEL-205-LW-012
+|   DNS_Domain_Name: UMD.LOCAL.EDU
+|   DNS_Computer_Name: BEL-205-LW-012.UMD.LOCAL.EDU
+|   DNS_Tree_Name: UMD.LOCAL.EDU
+|_  Product_Version: 10.0.22621
+33354/tcp open  tcpwrapped
+MAC Address: C8:5A:CF:0F:5D:39 (HP)
+Device type: general purpose
+Running: Microsoft Windows 10|11
+OS CPE: cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_11
+OS details: Microsoft Windows 10 1703 or Windows 11 21H2
+Uptime guess: 1.138 days (since Wed Jul  2 13:10:05 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2025-07-03T21:28:07
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| nbstat: NetBIOS name: BEL-205-LW-012, NetBIOS user: <unknown>, NetBIOS MAC: c8:5a:cf:0f:5d:39 (HP)
+| Names:
+|   BEL-205-LW-012<20>   Flags: <unique><active>
+|   BEL-205-LW-012<00>   Flags: <unique><active>
+|_  UMD<00>              Flags: <group><active>
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.55 ms 10.13.181.136
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:28
+NSOCK ERROR [83.4950s] poll_loop(): nsock_loop error 10022: Se ha proporcionado un argumento no v\xe1lido. 
+NSE: Script Engine Scan Aborted.
+An error was thrown by the engine: C:\Program Files (x86)\Nmap/nse_main.lua:1078: a fatal error occurred in nsock_loop
+stack traceback:
+	[C]: in function 'nmap.socket.loop'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1078: in upvalue 'run'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1488: in function <C:\Program Files (x86)\Nmap/nse_main.lua:1435>
+	[C]: in ?
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 83.50 seconds
+           Raw packets sent: 1017 (45.446KB) | Rcvd: 1017 (41.422KB)
+
+
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-03 16:29 -0500
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:29
+Completed NSE at 16:29, 0.00s elapsed
+Initiating NSE at 16:29
+Completed NSE at 16:29, 0.00s elapsed
+Initiating NSE at 16:29
+Completed NSE at 16:29, 0.00s elapsed
+Initiating Ping Scan at 16:29
+Scanning 186.28.232.10 [4 ports]
+Completed Ping Scan at 16:29, 0.04s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 16:29
+Completed Parallel DNS resolution of 1 host. at 16:29, 0.51s elapsed
+Initiating SYN Stealth Scan at 16:29
+Scanning 186.28.232.10 [1000 ports]
+Completed SYN Stealth Scan at 16:30, 39.35s elapsed (1000 total ports)
+Initiating Service scan at 16:30
+Initiating OS detection (try #1) against 186.28.232.10
+Retrying OS detection (try #2) against 186.28.232.10
+Initiating Traceroute at 16:30
+Completed Traceroute at 16:30, 3.07s elapsed
+Initiating Parallel DNS resolution of 8 hosts. at 16:30
+Completed Parallel DNS resolution of 8 hosts. at 16:30, 0.17s elapsed
+NSE: Script scanning 186.28.232.10.
+Initiating NSE at 16:30
+Completed NSE at 16:30, 5.02s elapsed
+Initiating NSE at 16:30
+Completed NSE at 16:30, 0.00s elapsed
+Initiating NSE at 16:30
+Completed NSE at 16:30, 0.00s elapsed
+Nmap scan report for 186.28.232.10
+Host is up (0.037s latency).
+All 1000 scanned ports on 186.28.232.10 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 9 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+1   1.00 ms  10.13.180.1
+2   2.00 ms  10.13.0.30
+3   4.00 ms  static-ip-18685242130.cable.net.co (186.85.242.130)
+4   5.00 ms  10.166.124.149
+5   18.00 ms claro2-nap.ccit.org.co (206.223.124.155)
+6   ...
+7   35.00 ms 10.5.1.14
+8   37.00 ms static-190-25-240-174.static.etb.net.co (190.25.240.174)
+9   41.00 ms 186.28.232.10
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:30
+Completed NSE at 16:30, 0.00s elapsed
+Initiating NSE at 16:30
+Completed NSE at 16:30, 0.00s elapsed
+Initiating NSE at 16:30
+Completed NSE at 16:30, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 51.27 seconds
+           Raw packets sent: 2058 (93.372KB) | Rcvd: 23 (1.552KB)
